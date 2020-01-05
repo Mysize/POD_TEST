@@ -4,26 +4,12 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "This is my first pod framework
   spec.description  = "This is my first pod framework please don't tease me!"
-  spec.homepage     = ""
-# spec.license      = "MIT"
+  spec.homepage     = "https://github.com/Mysize/POD_TEST_IOS"
+  spec.license      = "MIT"
   spec.author             = {"NetanelY"}
-  spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "http://EXAMPLE/POD_TEST.git", :tag => "#{spec.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
-  # spec.public_header_files = "Classes/**/*.h"
-
+  spec.platform     = :ios, "12.0"
+  spec.source       = { :git => "https://github.com/Mysize/POD_TEST_IOS.git", :tag => "#{spec.version}" }
+  spec.source_files  = "POD_TEST"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
