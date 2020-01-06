@@ -1,52 +1,14 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "POD_TEST"
-  spec.version      = "1.0.0"
-  spec.summary      = "This is my first pod framework
-  spec.description  = "This is my first pod framework please don't tease me!"
-  spec.homepage     = "https://github.com/Mysize/POD_TEST_IOS"
-  spec.license      = "MIT"
-  spec.author             = {"NetanelY"}
-  spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/Mysize/POD_TEST_IOS.git", :tag => "#{spec.version}" }
-  spec.source_files  = "POD_TEST"
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
-
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
-
+  spec.name         = 'POD_TEST'
+  spec.version      = '1.0.0'
+  spec.summary      = 'This is my first pod framework'
+  spec.description  = 'This is my first pod framework please don\'t tease me!'
+  spec.homepage     = 'https://www.mysizeid.com'
+  spec.license      = 'MIT'
+  spec.author       = {'NetanelY' => 'netanel@mysizeid.com'}
+  spec.platform     = :ios, '13.2'
+  spec.source       = { :git => 'https://github.com/Mysize/POD_TEST.git', :tag => '1.0.0' }
+  spec.source_files  = 'POD_TEST'
+  spec.requires_arc  = true
 end
