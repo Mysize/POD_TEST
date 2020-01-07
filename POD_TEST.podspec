@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = 'POD_TEST'
   spec.requires_arc  = true
   spec.resources = "POD_TEST/images.bundle"
-  spec.public_header_files = 'POD_TEST/Public/*.h'
+  spec.public_header_files = 'POD_TEST/POD_TEST/Public/*.h'
 
 end
