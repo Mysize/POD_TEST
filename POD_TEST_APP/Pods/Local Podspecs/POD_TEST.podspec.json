@@ -1,6 +1,6 @@
 {
   "name": "POD_TEST",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "This is my first pod framework",
   "description": "This is my first pod framework please don't tease me!",
   "homepage": "https://www.mysizeid.com",
@@ -13,8 +13,9 @@
   },
   "source": {
     "git": "https://github.com/Mysize/POD_TEST.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
-  "source_files": "POD_TEST",
-  "requires_arc": true
+  "source_files": "**",
+  "requires_arc": true,
+  "resources": "POD_TEST/images.bundle"
 }

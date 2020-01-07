@@ -1,5 +1,5 @@
 PODS:
-  - POD_TEST (1.0.1)
+  - POD_TEST (1.0.2)
 
 DEPENDENCIES:
   - POD_TEST (from `/Users/netanelY/Documents/pod_tests/POD_TEST`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "/Users/netanelY/Documents/pod_tests/POD_TEST"
 
 SPEC CHECKSUMS:
-  POD_TEST: ff5e1f8b5b97edab0e7b0303027f3c0accc6a43a
+  POD_TEST: 64eff6a9469dbccd8d8e62e02028fd9a4cbdf039
 
 PODFILE CHECKSUM: 7dca1bb9c6a837cfecfdc3419287610e51bd1c98
 
