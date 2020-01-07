@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6FB85F23C46D2600CBA994 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B6FB85E23C46D2600CBA994 /* images.bundle */; };
 		1BE5CEC823BE3DF800184196 /* POD_TEST.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE5CEC623BE3DF800184196 /* POD_TEST.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BE5CED023BE3E8F00184196 /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE5CECE23BE3E8F00184196 /* Service.h */; };
 		1BE5CED123BE3E8F00184196 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5CECF23BE3E8F00184196 /* Service.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6FB85E23C46D2600CBA994 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		1BE5CEC323BE3DF800184196 /* POD_TEST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POD_TEST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE5CEC623BE3DF800184196 /* POD_TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POD_TEST.h; sourceTree = "<group>"; };
 		1BE5CEC723BE3DF800184196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		1BE5CEC523BE3DF800184196 /* POD_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				1B6FB85E23C46D2600CBA994 /* images.bundle */,
 				1BE5CEC623BE3DF800184196 /* POD_TEST.h */,
 				1BE5CEC723BE3DF800184196 /* Info.plist */,
 				1BE5CECE23BE3E8F00184196 /* Service.h */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6FB85F23C46D2600CBA994 /* images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

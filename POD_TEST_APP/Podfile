@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'POD_TEST_APP' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for POD_TEST_APP 
+    pod 'POD_TEST', :path => "/Users/netanelY/Documents/pod_tests/POD_TEST" 
+end
