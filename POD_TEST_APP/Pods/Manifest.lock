@@ -1,5 +1,5 @@
 PODS:
-  - POD_TEST (1.0.2)
+  - POD_TEST (1.0.6)
 
 DEPENDENCIES:
   - POD_TEST (from `/Users/netanelY/Documents/pod_tests/POD_TEST`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "/Users/netanelY/Documents/pod_tests/POD_TEST"
 
 SPEC CHECKSUMS:
-  POD_TEST: 64eff6a9469dbccd8d8e62e02028fd9a4cbdf039
+  POD_TEST: c641b71148b27a6eb6f24e5844e8fb2e4c780ac8
 
-PODFILE CHECKSUM: 7dca1bb9c6a837cfecfdc3419287610e51bd1c98
+PODFILE CHECKSUM: 024183a20456a922a27f16edeb94ce19843607c3
 
 COCOAPODS: 1.7.1

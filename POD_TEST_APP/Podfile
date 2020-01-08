@@ -6,5 +6,6 @@ target 'POD_TEST_APP' do
   use_frameworks!
 
   # Pods for POD_TEST_APP 
-    pod 'POD_TEST', :path => "/Users/netanelY/Documents/pod_tests/POD_TEST" 
+    pod 'POD_TEST', :path => "/Users/netanelY/Documents/pod_tests/POD_TEST"
+    
 end

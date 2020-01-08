@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5A9A4C23C4C5F100EA0F17 /* POD_TEST.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6FB86223C4BB2B00CBA994 /* POD_TEST.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5A9A4D23C4C5F100EA0F17 /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6FB86123C4BB2B00CBA994 /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B6FB85F23C46D2600CBA994 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B6FB85E23C46D2600CBA994 /* images.bundle */; };
-		1B6FB86423C4C3FA00CBA994 /* POD_TEST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6FB86323C4C3FA00CBA994 /* POD_TEST.framework */; };
-		1B6FB86523C4C41000CBA994 /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6FB86123C4BB2B00CBA994 /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B6FB86623C4C41400CBA994 /* POD_TEST.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6FB86223C4BB2B00CBA994 /* POD_TEST.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BE5CED123BE3E8F00184196 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5CECF23BE3E8F00184196 /* Service.m */; };
 /* End PBXBuildFile section */
 
@@ -18,7 +17,6 @@
 		1B6FB85E23C46D2600CBA994 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		1B6FB86123C4BB2B00CBA994 /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		1B6FB86223C4BB2B00CBA994 /* POD_TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POD_TEST.h; sourceTree = "<group>"; };
-		1B6FB86323C4C3FA00CBA994 /* POD_TEST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = POD_TEST.framework; sourceTree = "<group>"; };
 		1BE5CEC323BE3DF800184196 /* POD_TEST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POD_TEST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE5CEC723BE3DF800184196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BE5CECF23BE3E8F00184196 /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
@@ -29,7 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6FB86423C4C3FA00CBA994 /* POD_TEST.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +57,6 @@
 				1B6FB86223C4BB2B00CBA994 /* POD_TEST.h */,
 				1B6FB86123C4BB2B00CBA994 /* Service.h */,
 				1BE5CECF23BE3E8F00184196 /* Service.m */,
-				1B6FB86323C4C3FA00CBA994 /* POD_TEST.framework */,
 			);
 			path = POD_TEST;
 			sourceTree = "<group>";
@@ -72,8 +68,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6FB86623C4C41400CBA994 /* POD_TEST.h in Headers */,
-				1B6FB86523C4C41000CBA994 /* Service.h in Headers */,
+				1B5A9A4D23C4C5F100EA0F17 /* Service.h in Headers */,
+				1B5A9A4C23C4C5F100EA0F17 /* POD_TEST.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +84,7 @@
 				1BE5CEBF23BE3DF800184196 /* Sources */,
 				1BE5CEC023BE3DF800184196 /* Frameworks */,
 				1BE5CEC123BE3DF800184196 /* Resources */,
+				1B5A9A4F23C5ED3900EA0F17 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -140,6 +137,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5A9A4F23C5ED3900EA0F17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BE5CEBF23BE3DF800184196 /* Sources */ = {
@@ -274,7 +291,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GZUK4KDZSR;
+				DEVELOPMENT_TEAM = M6F5LD7XTQ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -303,7 +320,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GZUK4KDZSR;
+				DEVELOPMENT_TEAM = M6F5LD7XTQ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
